@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AccountExist" xml:space="preserve">
+    <value>An account with provided email already exists.</value>
+  </data>
+  <data name="AddressExist" xml:space="preserve">
+    <value>This address is occupied by another company, check the address provided.</value>
+  </data>
+  <data name="ErrorCreateAccessToken" xml:space="preserve">
+    <value>An error occurred while creating an access token.</value>
+  </data>
+  <data name="ErrorInsertAddress" xml:space="preserve">
+    <value>The new Address could not be inserted correctly.</value>
+  </data>
+  <data name="ErrorInsertCompany" xml:space="preserve">
+    <value>The new company could not be inserted correctly.</value>
+  </data>
+  <data name="ErrorParametersRequest" xml:space="preserve">
+    <value>The properties of the request are invalid.</value>
+  </data>
+  <data name="ErrorProccessResetPassword" xml:space="preserve">
+    <value>Something happened while resetting the password.</value>
+  </data>
+  <data name="ErrorProcessAddress" xml:space="preserve">
+    <value>Error in the process of inserting a new Address.</value>
+  </data>
+  <data name="ErrorProcessCompany" xml:space="preserve">
+    <value>Error in the process of inserting a new company.</value>
+  </data>
+  <data name="ErrorProcessingAppointment" xml:space="preserve">
+    <value>An error occurred while processing the request.</value>
+  </data>
+  <data name="ErrorSaveAppointment" xml:space="preserve">
+    <value>An error occurred while saving the Appointment.</value>
+  </data>
+  <data name="ErrorServiceNotExist" xml:space="preserve">
+    <value>This service is not available in our system.</value>
+  </data>
+  <data name="ErrorUpdateRoom" xml:space="preserve">
+    <value>An error occurred when updating the room.</value>
+  </data>
+  <data name="HappenedTokenError" xml:space="preserve">
+    <value>Something happened while we were generating the user's token.</value>
+  </data>
+  <data name="SuccessInsertAddress" xml:space="preserve">
+    <value>The new Address has been inserted correctly</value>
+  </data>
+  <data name="SuccessInsertCompany" xml:space="preserve">
+    <value>The new company has been inserted correctly</value>
+  </data>
+  <data name="TokenGenerate" xml:space="preserve">
+    <value>The access token has been successfully generated.</value>
+  </data>
+  <data name="TokenInvalid" xml:space="preserve">
+    <value>The refresh token is invalid.</value>
+  </data>
+  <data name="TokenNotGenerate" xml:space="preserve">
+    <value>The token access has not been generated correctly.</value>
+  </data>
+  <data name="TokenNotRegister" xml:space="preserve">
+    <value>The  token refresh not registered successfully.</value>
+  </data>
+  <data name="TokenNotUpdate" xml:space="preserve">
+    <value>Not update refresh token and the new refresh token has not been successfully registered.</value>
+  </data>
+  <data name="TokenResetInvalid" xml:space="preserve">
+    <value>The reset token is invalid.</value>
+  </data>
+  <data name="TokenUpdate" xml:space="preserve">
+    <value>The old refresh token has been updated and a new refresh token has been generated and an access token has been generated.</value>
+  </data>
+  <data name="TokenValid" xml:space="preserve">
+    <value>The refresh token is valid and the access token has been generated.</value>
+  </data>
+  <data name="UserCredentials" xml:space="preserve">
+    <value>The credentials user is valid.</value>
+  </data>
+  <data name="UserErrorUpdatePassword" xml:space="preserve">
+    <value>The password could not be updated correctly. Please try again</value>
+  </data>
+  <data name="UserFind" xml:space="preserve">
+    <value>User find with this email </value>
+  </data>
+  <data name="UserInvalid" xml:space="preserve">
+    <value>The user is invalid.</value>
+  </data>
+  <data name="UserNotFind" xml:space="preserve">
+    <value>An error occurred while find the user.</value>
+  </data>
+  <data name="UserNotRegister" xml:space="preserve">
+    <value>Something happened while the user was being registered.</value>
+  </data>
+  <data name="UserRegister" xml:space="preserve">
+    <value>The user has been successfully registered.</value>
+  </data>
+  <data name="UserUpdatePassword" xml:space="preserve">
+    <value>The password has been updated.</value>
+  </data>
+  <data name="UserVerifingCredentials" xml:space="preserve">
+    <value>An ocurred while verifing credentilas with this email</value>
+  </data>
+</root>

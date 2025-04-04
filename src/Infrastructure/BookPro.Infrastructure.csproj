@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.36" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.36">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="6.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Commons\BookPro.Common.csproj" />
+    <ProjectReference Include="..\Domain\BookPro.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <Using Include="Microsoft.EntityFrameworkCore" />
+	  <Using Include="BookPro.Domain.Entitys" />
+  </ItemGroup>
+  <ItemGroup>
+		<Using Include="Microsoft.EntityFrameworkCore.Design" />
+		<Using Include="Microsoft.Extensions.Configuration" />
+	  <Using Include="BookPro.Infrastructure.Persistece" />
+	  <Using Include="BookPro.Domain.interfaces" />
+  </ItemGroup>
+
+</Project>

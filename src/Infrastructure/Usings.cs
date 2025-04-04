@@ -1,0 +1,10 @@
+﻿global using BookPro.Domain.Entitys.Tokens;
+global using BookPro.Domain.Entitys.Users;
+global using BookPro.Domain.interfaces.Appointment;
+global using BookPro.Domain.interfaces.Authentication;
+global using BookPro.Infrastructure.Repositories;
+global using BookPro.Infrastructure.Repositories.Authentication;
+global using Commons;
+global using Microsoft.EntityFrameworkCore.Migrations;
+global using Microsoft.Extensions.DependencyInjection;
+global using System.Security.Cryptography;
