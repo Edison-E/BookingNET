@@ -116,7 +116,7 @@ public class AccountService : ServiceBase, IAccountService
                 return AccountResponseFactory.CreateRegisterResponse(new List<string> { _managerLenguaje.GetMessage(ErrorUser.UserNotRegister) }, isInsertUser);
             }
 
-            await _emailService.SendEmailAsync(register.Email,"Cuenta creada","<h2>Bienvenido a BookPro</h2>");
+            //await _emailService.SendEmailAsync(register.Email,"Cuenta creada","<h2>Bienvenido a BookPro</h2>");
             return AccountResponseFactory.CreateRegisterResponse(new List<string> { _managerLenguaje.GetMessage(SuccessUser.UserRegister) }, validationParameters.Valid);
 
         }
