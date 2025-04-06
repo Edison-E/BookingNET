@@ -28,6 +28,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookPro.Common", "src\Commo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookPro.ApiTest", "test\ApiTest\BookPro.ApiTest.csproj", "{143CBE7A-8207-44D7-BF37-DBC61DA88576}"
 EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "BookPro.front", "src\FrontEnd\BookPro.front.esproj", "{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -66,6 +68,12 @@ Global
 		{143CBE7A-8207-44D7-BF37-DBC61DA88576}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143CBE7A-8207-44D7-BF37-DBC61DA88576}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143CBE7A-8207-44D7-BF37-DBC61DA88576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -79,6 +87,7 @@ Global
 		{49F427FD-6FAA-4C3A-873E-8E93E7E5C449} = {9F191D9D-5176-46D0-88E3-2F82784B15E5}
 		{5587C013-1A51-4A82-B5B9-9D79EC5D7777} = {F0C2089D-E97D-4EBE-837F-F340D042649B}
 		{143CBE7A-8207-44D7-BF37-DBC61DA88576} = {9F191D9D-5176-46D0-88E3-2F82784B15E5}
+		{598B0BD0-4EA6-4B85-ADD3-413E6E6DECA4} = {F0C2089D-E97D-4EBE-837F-F340D042649B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A5CF3B8C-517A-4A64-995C-7554E3DC749C}
